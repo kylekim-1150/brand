@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNK Factory: Core Values & Brand Identity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .slide {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.7s ease-in-out;
+        }
+        .slide.active {
+            display: flex;
+            opacity: 1;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #2563EB, #1E3A8A);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-4 overflow-hidden">
+
+    <div id="presentation-container" class="w-full max-w-4xl aspect-[16/9] bg-white rounded-xl shadow-2xl overflow-hidden relative">
+
+        <!-- Slide 1: Title -->
+        <div id="slide-1" class="slide active flex-col items-center justify-center text-center p-8 bg-gray-900 text-white">
+            <h1 class="text-6xl md:text-7xl font-black gradient-text">TNK Factory</h1>
+            <p class="mt-4 text-2xl md:text-3xl font-light text-gray-300">Our Core Values & Brand Identity</p>
+            <p class="mt-12 text-lg font-medium text-gray-400">Tech & Knowledge Factory</p>
+        </div>
+
+        <!-- Slide 2: Intro -->
+        <div id="slide-2" class="slide flex-col items-center justify-center p-12 text-gray-800">
+            <h2 class="text-4xl font-bold mb-8 text-blue-900">우리는 왜 핵심가치를 이야기하는가?</h2>
+            <div class="text-xl space-y-4 text-left max-w-2xl">
+                <p>핵심가치는 TNK Factory가 <strong class="text-blue-600">무엇을 중요하게 생각하고</strong>, <strong class="text-blue-600">어떻게 일하는지</strong>를 보여주는 이정표입니다.</p>
+                <p>우리의 비전을 실현하고, 지속가능한 성장을 이루기 위한 우리 모두의 약속입니다.</p>
+                <p class="mt-6 font-semibold">이제 TNK Factory를 더욱 단단하게 만들 네 가지 핵심가치를 소개합니다.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3: 4 Values Overview -->
+        <div id="slide-3" class="slide flex-col items-center justify-center p-12 bg-gray-50">
+            <h2 class="text-4xl font-bold mb-12 text-blue-900">TNK Factory의 4가지 핵심가치</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-3xl">
+                <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                    <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    <h3 class="mt-4 text-xl font-bold text-gray-800">책임감</h3>
+                    <p class="text-sm text-gray-500 mt-1">신뢰와 성공의 기초</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                    <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12s-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.368a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"></path></svg>
+                    <h3 class="mt-4 text-xl font-bold text-gray-800">공유</h3>
+                    <p class="text-sm text-gray-500 mt-1">집단 지성을 통한 혁신</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                    <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V7a2 2 0 012-2h4M5 8h1.586a1 1 0 01.707.293l2.414 2.414a1 1 0 001.414 0l2.414-2.414a1 1 0 01.707-.293H15"></path></svg>
+                    <h3 class="mt-4 text-xl font-bold text-gray-800">소통</h3>
+                    <p class="text-sm text-gray-500 mt-1">강력한 팀워크의 핵심</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                    <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    <h3 class="mt-4 text-xl font-bold text-gray-800">성장</h3>
+                    <p class="text-sm text-gray-500 mt-1">함께 도전하며 만드는 미래</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Responsibility -->
+        <div id="slide-4" class="slide flex-col justify-center p-12">
+            <h2 class="text-xl font-bold text-blue-600">Responsibility</h2>
+            <h3 class="text-4xl font-black mt-2 mb-8 text-gray-800">우리는 책임감 있게 일합니다.</h3>
+            <ul class="list-disc list-inside text-xl space-y-4 text-gray-700 max-w-2xl">
+                <li>책임감은 <strong class="text-blue-900">신뢰와 성공의 기초</strong>입니다.</li>
+                <li><strong class="font-semibold">주도적인 자세:</strong> 자신의 역할과 결정에 책임을 다하며, 팀의 시너지를 창출합니다.</li>
+                <li><strong class="font-semibold">끝까지 완수하는 힘:</strong> 결과에 책임을 지는 태도로 더 나은 성과를 만듭니다.</li>
+                <li class="mt-4 p-3 bg-blue-50 rounded-lg">결과: <strong class="text-blue-700">신뢰받는 문화</strong>를 구축하는 원동력이 됩니다.</li>
+            </ul>
+        </div>
+        
+        <!-- Slide 5: Sharing -->
+        <div id="slide-5" class="slide flex-col justify-center p-12 bg-gray-50">
+            <h2 class="text-xl font-bold text-blue-600">Sharing</h2>
+            <h3 class="text-4xl font-black mt-2 mb-8 text-gray-800">우리는 아낌없이 나눕니다.</h3>
+            <ul class="list-disc list-inside text-xl space-y-4 text-gray-700 max-w-2xl">
+                <li>공유는 조직의 지혜를 모아 <strong class="text-blue-900">새로운 가능성</strong>을 여는 힘입니다.</li>
+                <li><strong class="font-semibold">적극적인 나눔:</strong> 정보와 통찰을 투명하게 공유하여 협업을 촉진합니다.</li>
+                <li><strong class="font-semibold">집단 지성의 힘:</strong> 깊이 있는 지식 공유는 <strong class="text-blue-900">혁신을 이끄는 밑거름</strong>이 됩니다.</li>
+                <li class="mt-4 p-3 bg-blue-50 rounded-lg">결과: 개인과 조직이 <strong class="text-blue-700">함께 성장하는 문화</strong>를 만듭니다.</li>
+            </ul>
+        </div>
+
+        <!-- Slide 6: Communication -->
+        <div id="slide-6" class="slide flex-col justify-center p-12">
+            <h2 class="text-xl font-bold text-blue-600">Communication</h2>
+            <h3 class="text-4xl font-black mt-2 mb-8 text-gray-800">우리는 열린 마음으로 소통합니다.</h3>
+            <ul class="list-disc list-inside text-xl space-y-4 text-gray-700 max-w-2xl">
+                <li>효과적인 소통은 <strong class="text-blue-900">강력한 팀워크</strong>의 필수 요소입니다.</li>
+                <li><strong class="font-semibold">명확하고 진정성 있게:</strong> 신뢰를 구축하고 서로의 생각과 비전을 존중합니다.</li>
+                <li><strong class="font-semibold">경청과 피드백:</strong> 오해를 줄이고 활발한 의견 교환으로 최고의 결정을 도출합니다.</li>
+                <li class="mt-4 p-3 bg-blue-50 rounded-lg">결과: <strong class="text-blue-700">하나의 목표</strong>를 향해 나아가는 팀을 만듭니다.</li>
+            </ul>
+        </div>
+
+        <!-- Slide 7: Growth -->
+        <div id="slide-7" class="slide flex-col justify-center p-12 bg-gray-50">
+            <h2 class="text-xl font-bold text-blue-600">Growth</h2>
+            <h3 class="text-4xl font-black mt-2 mb-8 text-gray-800">우리는 함께 도전하고 발전합니다.</h3>
+            <ul class="list-disc list-inside text-xl space-y-4 text-gray-700 max-w-2xl">
+                <li>성장은 <strong class="text-blue-900">지속 가능한 경쟁력</strong>을 확보하는 핵심입니다.</li>
+                <li><strong class="font-semibold">끊임없는 배움과 도전:</strong> 변화하는 환경에 능동적으로 대응하고 역량을 강화합니다.</li>
+                <li><strong class="font-semibold">서로를 향한 지지:</strong> 구성원 모두가 서로의 성장을 응원하며 시너지를 만듭니다.</li>
+                <li class="mt-4 p-3 bg-blue-50 rounded-lg">결과: 개인과 조직이 함께 <strong class="text-blue-700">미래를 향해 나아갑니다.</strong></li>
+            </ul>
+        </div>
+
+        <!-- Slide 8: Brand Color -->
+        <div id="slide-8" class="slide flex-col items-center justify-center p-12 bg-gray-900 text-white">
+            <h2 class="text-4xl font-bold mb-12">Brand Color | 우리의 가치를 담은 색</h2>
+            <div class="flex flex-col md:flex-row gap-8 w-full max-w-xl">
+                <div class="flex-1 text-center">
+                    <div class="w-full h-32 rounded-lg" style="background-color: #2563EB;"></div>
+                    <h3 class="mt-4 text-2xl font-bold">Primary Blue</h3>
+                    <p class="text-lg text-gray-300">#2563EB</p>
+                    <p class="mt-2 text-gray-400">신뢰, 소통, 성장</p>
+                </div>
+                <div class="flex-1 text-center">
+                    <div class="w-full h-32 rounded-lg" style="background-color: #1E3A8A;"></div>
+                    <h3 class="mt-4 text-2xl font-bold">Navy Blue</h3>
+                    <p class="text-lg text-gray-300">#1E3A8A</p>
+                    <p class="mt-2 text-gray-400">책임감, 전문성, 안정</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 9: Why Blue -->
+        <div id="slide-9" class="slide flex-col justify-center p-12">
+            <h2 class="text-4xl font-black mb-8 text-blue-900">Why Blue?</h2>
+            <p class="text-xl mb-8 max-w-2xl">파란색은 우리의 <strong class="text-blue-600">핵심가치를 모두 아우르는</strong> 최적의 색상입니다.</p>
+            <div class="grid md:grid-cols-2 gap-6 text-lg max-w-3xl">
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-blue-800">신뢰와 책임감</h3>
+                    <p class="text-gray-700">안정감을 상징하며, 책임감 있는 이미지를 전달합니다.</p>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-blue-800">소통과 지혜</h3>
+                    <p class="text-gray-700">차분하고 이성적인 에너지로 원활한 소통과 지적 성장을 나타냅니다.</p>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-blue-800">전문성과 성장</h3>
+                    <p class="text-gray-700">깊이감 있는 색상으로 전문성을 어필하고, 미래지향적인 이미지를 구축합니다.</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg flex items-center justify-center">
+                    <p class="text-gray-600 font-semibold">내부적 결속 & 외부적 신뢰</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Closing -->
+        <div id="slide-10" class="slide active flex-col items-center justify-center text-center p-8 bg-gray-900 text-white">
+            <h2 class="text-5xl font-black gradient-text">우리의 가치, 우리의 미래</h2>
+            <p class="mt-6 text-xl text-gray-300">TNK Factory의 핵심가치는 우리를 하나로 만들고,<br>더 높은 목표를 향해 나아가는 이정표가 될 것입니다.</p>
+            <p class="mt-12 text-2xl font-semibold text-white">감사합니다.</p>
+        </div>
+
+    </div>
+
+    <!-- Navigation -->
+    <div class="mt-4 flex items-center gap-4">
+        <button id="prevBtn" class="bg-white text-gray-700 px-6 py-2 rounded-lg shadow-md hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">이전</button>
+        <div id="slide-counter" class="text-gray-600 font-medium">1 / 10</div>
+        <button id="nextBtn" class="bg-blue-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">다음</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.slide');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const slideCounter = document.getElementById('slide-counter');
+            let currentSlide = 0;
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    if (i === index) {
+                        // For the first and last slides, remove the active class from others
+                        if (index === 0 || index === slides.length - 1) {
+                             slides.forEach(s => s.classList.remove('active'));
+                        }
+                        slide.classList.add('active');
+                    } else {
+                        slide.classList.remove('active');
+                    }
+                });
+                
+                // Special handling for title and closing slides
+                if(index === 0) {
+                   document.getElementById('slide-1').classList.add('active');
+                }
+                if(index === slides.length - 1) {
+                   document.getElementById('slide-10').classList.add('active');
+                }
+
+
+                slideCounter.textContent = `${index + 1} / ${slides.length}`;
+                prevBtn.disabled = index === 0;
+                nextBtn.disabled = index === slides.length - 1;
+            }
+
+            prevBtn.addEventListener('click', () => {
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                if (currentSlide < slides.length - 1) {
+                    currentSlide++;
+                    showSlide(currentSlide);
+                }
+            });
+            
+            // Initialize first slide
+            showSlide(0);
+        });
+    </script>
+</body>
+</html>
